@@ -1,0 +1,120 @@
+@import "tailwindcss";
+.font-f{
+    font-family: 'Hind Madurai';
+
+}
+.my-call-btn:hover{
+    background-color: #00A63E;
+
+}
+.call:hover{
+    background-color: #5C5C5C;
+
+}
+#clear:hover{
+    background-color: #5C5C5C;
+}
+
+
+@media screen and (max-width: 640px) {
+  
+    .card-section{
+      display: flex;
+      flex-direction: column;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        
+        gap: 5px;
+        max-width: 640px;
+    }
+    .copy-btn{
+        width: 60px;
+        height: 40px;
+        font-size: 16px;
+        
+    }
+    .nav-main-section{
+        display: flex;
+        gap: 5px;
+       
+        justify-content: space-around;
+        width: 40%;
+        height: 40px;
+    }
+
+    .nav-img-section{
+
+        justify-content: start;
+        width: 80px;
+        height: 40px;
+        padding: 0;
+        margin-left: -50px;
+    }
+    
+
+    .nav-img-section h1{
+        font-size: 16px;
+    }
+    .heart-section{
+        width: 60px;
+        height: 40px;
+        background-color:#41ff6b1a ;
+        
+        border-radius: 8px;
+    }
+    .heart-section img{
+        width: 20px;
+        height: 20px;
+    }
+    .heart-section p{
+        font-size: 16px;
+    }
+    .coin-section{
+         width: 60px;
+        height: 40px;
+        background-color: #41ff6b1a;
+        
+        border-radius: 8px;
+
+    }
+    .coin-section p{
+         font-size: 16px;
+
+    }
+    .coin-section img{
+          width: 20px;
+        height: 20px;
+        
+
+    }
+    .history-main-section{
+        width: 100%;
+        
+    }
+    .history-section-div{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .history-section-icon{
+        margin-left: 20px;
+    }
+    .clear-btn-section{
+        margin-right: 20px;
+    }
+    .clear-btn-section button{
+        color: white;
+        background-color:#00A63E;
+        font-size: 20px;
+        padding: 20px 36px;
+        border-radius: 8px;
+    }
+    
+}
